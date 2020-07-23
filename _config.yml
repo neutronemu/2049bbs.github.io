@@ -14,19 +14,8 @@ name: 2049bbs
 
 
 # Pagination
-#paginate: 24
+paginate: 24
 
-navigation:
-  - name: 首页
-    url: /
-  - name: 用户
-    url: /_layouts/user.html
-  - name: 分类
-    url: /_layouts/category.html
-  - name: 关于
-    url: /about.html
-  - name: 支持节点订阅
-    url: /_layouts/feed.xml
 
 collections:
   category_info:
