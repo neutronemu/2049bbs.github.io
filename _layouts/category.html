@@ -24,7 +24,7 @@ layout: default
     </div>
     {% endif %}
 
-    {% for article in categoryArticles limit: 1000 %}
+    {% for article in categoryArticles limit: 100 %}
         {% include article_list_item.html %}
     {% endfor %}
     
