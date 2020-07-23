@@ -41,5 +41,23 @@ layout: default
     {% for article in user_articles limit: 10 %}
         {% include article_list_item.html %}
     {% endfor %}
+    
+     <div class="pagination">
+
+        {% if paginator.previous_page %}
+        <a href="{{ baseURL }}{{ paginator.previous_page_path }}{% if paginator.page != 2 %}/{% endif %}index.html" class="float-left">
+            « 上一页
+        </a>
+        {% endif %}
+
+        {% if paginator.next_page %}
+        <a href="{{ baseURL }}{{ paginator.next_page_path }}/index.html" class="float-right">
+            下一页 »
+        </a>
+        {% endif %}
+        
+        <div class="c"></div>
+
+    </div>
 
 </div>
