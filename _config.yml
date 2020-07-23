@@ -14,7 +14,7 @@ name: 2049bbs
 
 
 # Pagination
-paginate: 100
+paginate: 104
 
 
 collections:
