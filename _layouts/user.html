@@ -38,7 +38,7 @@ layout: default
 </div>
 
 <div class="main-box home-box-list">
-    {% for article in user_articles limit: 10 %}
+    {% for article in user_articles limit: 100 %}
         {% include article_list_item.html %}
     {% endfor %}
     
