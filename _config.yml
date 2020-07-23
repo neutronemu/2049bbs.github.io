@@ -3,7 +3,7 @@
 #
 
 # Name of your site (displayed in the header)
-name: neutronemu
+name: 2049bbs
 
 #
 # Flags below are optional
@@ -46,6 +46,10 @@ defaults:
       layout: feed
       is_category_feed: true
 
+
+# Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
+# Used for Sitemap.xml and your RSS feed
+url: https://neutronemu.github.io
 #
 # !! You don't need to change any of the configuration flags below !!
 #
