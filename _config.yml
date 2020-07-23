@@ -3,7 +3,7 @@
 #
 
 # Name of your site (displayed in the header)
-name: 2049bbs.github.io
+name: 2049bbs
 
 #
 # Flags below are optional
@@ -49,7 +49,9 @@ defaults:
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url: https://neutronemu.github.io
+url: https://neutronemu.github.io/2049bbs.github.io
+
+
 #
 # !! You don't need to change any of the configuration flags below !!
 #
